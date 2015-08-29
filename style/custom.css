@@ -1,0 +1,142 @@
+body {
+  padding-top: 40px;
+  padding-bottom: 40px;
+    margin-top:35px;
+  background-color: #eee;
+    overflow-y: hidden;
+font-size: 1.2em;
+}
+
+.form-signin {
+  max-width: 360px;
+  padding: 15px;
+  margin: 0 auto;
+    margin-top: 30px;
+}
+.form-signin .form-signin-heading,
+.form-signin .checkbox {
+  margin-bottom: 10px;
+}
+.form-signin .checkbox {
+  font-weight: normal;
+}
+.form-signin .form-control {
+  position: relative;
+  height: auto;
+  -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          box-sizing: border-box;
+  padding: 10px;
+  font-size: 16px;
+}
+.form-signin .form-control:focus {
+  z-index: 2;
+}
+.form-signin input[type="email"] {
+  margin-bottom: -1px;
+  border-bottom-right-radius: 0;
+  border-bottom-left-radius: 0;
+}
+.form-signin input[type="password"] {
+  margin-bottom: 10px;
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+}
+
+.margin-large-top{
+    margin-top: 10px;    
+}
+.divider {
+    height: 2px;
+    width: 100%;
+    display: block;
+    margin: 10px 0;
+    margin-bottom: 20px;
+    overflow: hidden;
+    background-color: #e5e5e5;
+}
+
+table th {
+   white-space: nowrap;
+}
+
+
+.fixed {
+    position: absolute;
+    top:80px;
+}
+.margin-xlarge-top {
+    margin-top: 120px;    
+}
+.scrollable {
+    overflow-y: auto;
+    overflow-x: auto;
+    height: 320px;
+}
+.logout-btn{
+    margin-right: 20px;    
+}
+table.scroll {
+    width: 100%;
+    border-spacing: 0;
+    
+}
+
+table.scroll th,
+table.scroll td,
+table.scroll tr,
+table.scroll thead,
+table.scroll tbody { display: block; }
+
+
+table.scroll tr:after {
+    content: ' ';
+    display: block;
+    visibility: hidden;
+    clear: both;
+}
+
+
+table.scroll tbody td,
+table.scroll thead th {
+    width: 14%;
+    float: left;
+  
+}
+.scrollable-top{
+    
+        overflow-y: hidden;
+    overflow-x: auto;
+    height: 250px;
+}
+
+.panel-back-darker{
+    background-color:#e8e8e8;   
+}
+.img-small{
+    height: 40px;
+    width:130px;
+}
+.navbar-longer{
+    height:65px;
+}
+.margin-auto{
+    margin: auto;
+    width:203px;
+}
+.margin-large{
+    margin-top: 20px;
+    margin-bottom: 5px;
+}
+.margin-auto-title{
+    text-align: center;
+      
+}
+.search-login{
+     margin-top:50px;
+    width:100px;
+}
+.menu-contain{
+    margin-top: 7px;
+    margin-left: 30px;    
+}
